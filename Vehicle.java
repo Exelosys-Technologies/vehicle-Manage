@@ -11,7 +11,10 @@ public class Vehicle {
 	private int currentDirection;
 	private int currentVelocity;
 	
-
+//	double userMiles;
+//	double userGallons;
+//	double milesPerGallon;
+//	String userStringOutput;
 
 
 	public Vehicle(String name, String size) {
@@ -60,5 +63,18 @@ public class Vehicle {
 	}
 	
 	
+	public void mileage() {
+//		userStringOutput = JOptionPane.showInputDialog("Please enter the miles");
+//		userMiles = Double.parseDouble(userStringOutput);
+//		
+//		userStringOutput = JOptionPane.showInputDialog("Please enter the gallons of gas used");
+//		userGallons = Double.parseDouble(userStringOutput);
+//
+//		milesPerGallon = userMiles / userGallons;
+//
+//		JOptionPane.showMessageDialog(null, "Miles per gallon is " + milesPerGallon);
+//		System.exit(0);
+
+	}
 
 }
