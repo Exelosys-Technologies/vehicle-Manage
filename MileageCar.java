@@ -34,7 +34,10 @@ public class MileageCar {
 		 scanner.nextDouble();
 		 
 		 milesPerGallon = userMiles / userGallons;
-		 
+		 System.out.println("************Miles per Gallon**********");
+		 System.out.println("Data Entered by you : ");
+		 System.out.println("Miles :" + userMiles );
+		 System.out.println("gallons of gas used:" + userGallons );
 		 System.out.println("Miles per Gallon is " + milesPerGallon);
 		 
 	}
